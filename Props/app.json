@@ -25,6 +25,17 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      [
+        "expo-font",
+        {
+          "fonts": "npx expo install expo-font @expo-google-fonts/inter/Inter_400Regular",
+          "fonts": "npx expo install expo-font @expo-google-fonts/inter/Inter_600SemiBold",
+          "fonts": "npx expo install expo-font @expo-google-fonts/poppins/Poppins_400Regular",
+          "fonts": "npx expo install expo-font @expo-google-fonts/poppins/Poppins_700Bold"
+        }
+      ]
+    ]
   }
 }
